@@ -1,7 +1,7 @@
 use AdventureWorksDW2008R2;
 
 /* Q-1: Using the xyz_sales table answer the following question: Number of products sold in the
-Central and South regions. Excluding “Salem” and “Alton” city. */
+Central and South regions. Excluding â€œSalemâ€ and â€œAltonâ€ city. */
 
 select * from xyz_sales;
 
@@ -41,7 +41,7 @@ on the below criteria
 	Total_vaccinations_per_hundred between 5 and 15: Need improvement
 	Total_vaccinations_per_hundred less than 5: Poor
 How many people were vaccinated fully[Sum(people_vaccinated)] including all countries in the
-segment ‘On-track’. */
+segment â€˜On-trackâ€™. */
 
 select * from Vaccinations;
 
@@ -100,7 +100,7 @@ group by a.Branch order by SUM(b.Total) desc;
 
 /* Q-8: Using the table supermarket_customer and supermarket_sales, answer the following
 question: Find the average unit price of the "Health and beauty" product category. Note: Answer
-this question using ‘having’ clause. */
+this question using â€˜havingâ€™ clause. */
 
 select * from supermarket_customer;
 
